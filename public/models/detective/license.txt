@@ -1,0 +1,11 @@
+Model Information:
+* title:	detective
+* source:	https://sketchfab.com/3d-models/detective-b1de47c043314837a844698f2380daad
+* author:	haider706 (https://sketchfab.com/haider706)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "detective" (https://sketchfab.com/3d-models/detective-b1de47c043314837a844698f2380daad) by haider706 (https://sketchfab.com/haider706) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

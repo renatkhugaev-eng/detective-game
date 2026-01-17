@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <!-- Принудительная горизонтальная ориентация -->
+    <meta name="screen-orientation" content="landscape" />
+    <title>🔍 Детектив - Тайны ждут разгадки</title>
+    <meta name="description" content="Детективная игра с изометрическим видом. Расследуйте загадочные дела!" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔍</text></svg>" />
+  </head>
+  <body>
+    <!-- Экран "Поверните устройство" -->
+    <div id="rotate-device">
+      <div class="rotate-icon">📱</div>
+      <div class="rotate-text">Поверните устройство</div>
+      <div class="rotate-hint">Игра работает только в горизонтальном режиме</div>
+    </div>
+    
+    <!-- Экран загрузки (вне #app чтобы быть поверх canvas) -->
+    <div class="loading-screen" id="loading-screen">
+      <!-- Частицы пыли -->
+      <div class="loading-particles">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+      </div>
+      
+      <div class="loading-logo">🔍</div>
+      <div class="loading-title">Детектив</div>
+      <div class="loading-subtitle">Тайны ждут разгадки</div>
+      <div class="loading-spinner"></div>
+      <div class="loading-progress-container">
+        <div class="loading-progress-bar" id="loading-progress"></div>
+      </div>
+      <div class="loading-percent" id="loading-percent">0%</div>
+      <div class="loading-status" id="loading-status">Инициализация...</div>
+      <div class="loading-bytes" id="loading-bytes"></div>
+    </div>
+    
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
